@@ -1,6 +1,6 @@
 ABOUT FAKEX-PYTHON
 
-This library was built as a backup to forex-python, in the even that the API 
+This library was built as a backup to forex-python, in the event that the API 
 goes down and our students need to use a forex library.
 
 It uses a static list of example exchange rates and is NOT accurate or 
@@ -84,3 +84,6 @@ c.get_symbol("JPY")
 
 '¥'
 ```
+
+Here are some examples of how to use this library:
+
