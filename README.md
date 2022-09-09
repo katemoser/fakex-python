@@ -11,7 +11,13 @@ BUILT WITH
 
 GETTING STARTED
 
-simply make a venv, pip3 install fakex-python, install requirements
+make a venv
+
+pip install
+
+```
+pip install git+https://github.com/katemoser/fakex-python
+```
 
 USAGE
 
