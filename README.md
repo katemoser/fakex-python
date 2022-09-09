@@ -1,6 +1,6 @@
 ABOUT FAKEX-PYTHON
 
-This library was built as a backup to forex-python, in the even that the API 
+This library was built as a backup to forex-python, in the event that the API 
 goes down and our students need to use a forex library.
 
 BUILT WITH
