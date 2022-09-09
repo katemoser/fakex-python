@@ -1,1 +1,1 @@
-import fakex_python.converter
+import fakex_python.converter as fakex_python

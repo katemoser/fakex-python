@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name='fakex_python',
-    version='0.0.3',
+    version='0.0.4',
     author='Kate Moser',
     author_email='komoser@gmail.com',
     description='Currency conversion with sample data',
