@@ -84,6 +84,3 @@ c.get_symbol("JPY")
 
 '¥'
 ```
-
-Here are some examples of how to use this library:
-
