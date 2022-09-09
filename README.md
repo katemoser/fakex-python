@@ -1,4 +1,4 @@
-ABOUT FAKEX-PYTHON
+# ABOUT FAKEX-PYTHON
 
 This library was built as a backup to forex-python, in the event that the API 
 goes down and our students need to use a forex library.
@@ -7,9 +7,8 @@ It uses a static list of example exchange rates and is NOT accurate or
 up-to-date. This is for practice/educational purposes only and should not be 
 used in any sort of official/professional capacity.
 
-BUILT WITH
 
-GETTING STARTED
+# GETTING STARTED
 
 make a venv
 
@@ -19,7 +18,7 @@ pip install
 pip install git+https://github.com/katemoser/fakex-python
 ```
 
-USAGE
+# USAGE
 
 You can find the full documentation here: docs
 
@@ -27,8 +26,8 @@ Here are some examples of how to use this library:
 
 - Initialize the CurrencyRates class
 
-```python
-from fakex_python import CurrencyRates
+```
+from fakex_python.converter import CurrencyRates
 r = CurrencyRates()
 ```
 
@@ -36,7 +35,6 @@ r = CurrencyRates()
 
 ```python
 r.get_rates("JPY")
-
 {
     'USD': 0.006948827610482746,
     'EUR': 0.006950398045522716,
@@ -79,12 +77,13 @@ r.convert("JPY", "GBP", 1500)
 - Initialize the CurrencyCodes class
 
 ```python
-from fakex_python import CurrencyCodes
+from fakex_python.converter import CurrencyCodes
 
 c = CurrencyCodes()
 ```
 
 - Get currency symbol from a currency code
+
 ```python
 c.get_symbol("JPY")
 
