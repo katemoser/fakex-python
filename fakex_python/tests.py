@@ -1,7 +1,7 @@
 """Tests for Currency Rates Library"""
 from unittest import TestCase
-from converter import CurrencyRates
-from converter import CurrencyCodes
+from fakex_python.converter import CurrencyRates
+from fakex_python.converter import CurrencyCodes
 # from converter import CurrencyNotSupportedError
 
 class TestCurrencyRates(TestCase):

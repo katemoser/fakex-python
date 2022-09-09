@@ -1,5 +1,5 @@
-from rates import USD_RATES
-from symbols import CURRENCY_SYMBOLS
+from fakex_python.rates import USD_RATES
+from fakex_python.symbols import CURRENCY_SYMBOLS
 
 
 class CurrencyNotSupportedError(Exception):
