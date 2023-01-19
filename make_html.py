@@ -8,7 +8,7 @@ TEMPLATE = """
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>--- TODO ---</title>
+    <title>Fakex Python Docs</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/fontawesome.min.css">
@@ -16,7 +16,16 @@ TEMPLATE = """
   </head>
   <body>
 
-    {{content}}
+    <nav class="nav justify-content-end">
+      <a class="nav-link active" aria-current="page" href="/">forex-python</a>
+      <a class="nav-link" href="https://www.rithmschool.com/">Rithm School</a>
+    </nav>
+
+    <div class="container-fluid m-15">
+
+        {{content}}
+
+    </div>
 
     <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
