@@ -55,4 +55,4 @@ class CurrencyCodes:
         self.CURRENCY_SYMBOLS = CURRENCY_SYMBOLS
 
     def get_symbol(self, code):
-        return CURRENCY_SYMBOLS[code]
+        return CURRENCY_SYMBOLS.get(code)
